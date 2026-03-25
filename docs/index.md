@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ViewPressTest"
-  text: "A ViewPress Test Site"
+  name: "VitePressTest"
+  text: "A VitePress Test Site"
   tagline: My great project tagline
   actions:
     - theme: brand
