@@ -30,9 +30,9 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Overview', link: 'overview/' },
-          { text: 'Workbook', link: 'workbook/' },
-          { text: 'Launchpad', link: 'launchpad/' },
+          { text: 'Overview', link: '/overview/' },
+          { text: 'Workbook', link: '/workbook/' },
+          { text: 'Launchpad', link: '/launchpad/' },
         ]
       },
       {
