@@ -73,16 +73,8 @@ The **Relationship Visualizer** spreadsheet transforms your Excel tables into cl
 | **Advanced features** | Run SQL queries on your data, preview DOT source, add SVG animations |
 | **Cross-platform** |  Works with Excel on 🪟 Windows and 🍎 macOS |
 | **Multilingual UI** | Provides a sleek, tabbed ribbon interface in English, French, German, Italian, and Polish |
-| **Trusted** | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
 | **Absolutely Free** | No cost to use; [donations](https://buymeacoffee.com/exceltographviz) are appreciated |
+| ![](/oss-community-choice-white.svg) | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
 | | |
   
 From data flows to org charts, timelines, ERDs and circuits, this tool makes complex relationships instantly understandable.
-
----
-
-<center>
-  <img src="/oss-community-choice-white.svg" width="96px" height="96px"/>
-  <b>Excel to Graphviz</b> has been awarded the prestigious SourceForge Community Choice badge, celebrating over 10,000 downloads.
-</center>
-
