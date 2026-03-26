@@ -53,9 +53,10 @@ jobs:
         run: |
           touch docs/.vitepress/dist/.github-pages
 
+      # Disable Jekyll so GitHub Pages serves VitePress output as-is
       - name: Disable Jekyll
-          run: touch docs/.vitepress/dist/.nojekyll
-  
+        run: touch docs/.vitepress/dist/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
