@@ -62,7 +62,7 @@ features:
 
 ### Create Stunning Relationship Diagrams from Spreadsheets
 
-The **Relationship Visualizer** spreadsheet transforms your Excel tables into clear, professional **Graphviz diagrams** in seconds. Say goodbye to manual drawing tools — simply enter your data as rows (e.g., "A is related to B"), and watch dynamic graphs appear automatically.
+The **Relationship Visualizer** spreadsheet transforms your Excel tables into clear, professional **Graphviz diagrams** in seconds. Say goodbye to manual drawing tools — simply enter your data as rows (e.g., "A is related to B"), and watch graphs appear automatically.
 
 ### Why Users Love It
 
@@ -74,14 +74,14 @@ The **Relationship Visualizer** spreadsheet transforms your Excel tables into cl
 | **Cross-platform** |  Works with Excel on 🪟 Windows and 🍎 macOS |
 | **Multilingual UI** | Provides a sleek, tabbed ribbon interface in English, French, German, Italian, and Polish |
 | **Trusted** | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
-| **Absolutely Free** | No cost to use, however donations are appreciated |
+| **Absolutely Free** | No cost to use, however [donations](https://buymeacoffee.com/exceltographviz) are appreciated |
 | | |
   
-Whether you're mapping organization structures, data flows, timelines, dependencies, ERDs, electrical circuits, or process networks, Excel to Graphviz makes complex relationships instantly understandable.
+From data flows to org charts, timelines, ERDs and circuits, Excel to Graphviz makes complex relationships instantly understandable.
 
 ---
 
 <center>
   <img src="/oss-community-choice-white.svg" width="96px" height="96px"/>
-<b>Excel to Graphviz</b> has earned the prestigious <i>Community Choice</i> badge from <a href="https://sourceforge.net/" target="_blank">SourceForge</a>,<br/>celebrating over 10,000 downloads as a top-tier open-source gem.
+Excel to Graphviz has earned the prestigious <i>Community Choice</i> badge from <a href="https://sourceforge.net/" target="_blank">SourceForge</a>, celebrating over 10,000 downloads as a top-tier open-source gem.
 </center>

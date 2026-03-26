@@ -137,7 +137,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2015-present Jeffrey J. Long. All rights reserved.'
+      copyright: 'Copyright © 2015-present Jeffrey J. Long.'
     },
 
     editLink: {
