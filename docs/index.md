@@ -19,9 +19,7 @@ hero:
     - theme: alt
       text: Install
       link: /install/
-    - theme: alt
-      text: Go!
-      link: /create/
+
 
 features:
   - icon:
