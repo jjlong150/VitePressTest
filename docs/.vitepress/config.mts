@@ -15,11 +15,11 @@ export default defineConfig({
       {
         text: "Resources",
             items: [
-              { text: 'About', link: 'about/' },
-              { text: 'License', link: 'license/' },
-              { text: 'Privacy', link: 'privacy/' },
-              { text: 'Credits', link: 'acknowledge/' },
-              { text: 'Changelog', link: 'changelog/' }
+              { text: 'About', link: '/about/' },
+              { text: 'License', link: '/license/' },
+              { text: 'Privacy', link: '/privacy/' },
+              { text: 'Credits', link: '/acknowledge/' },
+              { text: 'Changelog', link: '/changelog/' }
             ]
       },
     ],
