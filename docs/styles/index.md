@@ -103,7 +103,7 @@ These values are also used by the `sql` worksheet when emitting rows when `CLUST
 
 Two rows are created when you use the [`style designer`](../designer/) to define a style for a cluster. These settings specify the suffix appended to the style name to indicate where the cluster begins and ends. The default suffixes are **"Begin"** and **"End"**, but you may choose alternatives such as **"Start"/"Stop"** or **"Open"/"Close"**.
 
-These suffix values are also used by the `sql` worksheet when generating rows for `CLUSTER` and `SUBCLUSTER` clauses in an `SQL` statement. For more details on how SQL-driven clustering works, see the [Grouping Data into Clusters and Subclusters](../sql/extensions./#grouping-data-into-clusters-and-subclusters) topic.
+These suffix values are also used by the `sql` worksheet when generating rows for `CLUSTER` and `SUBCLUSTER` clauses in an `SQL` statement. For more details on how SQL-driven clustering works, see the [Grouping Data into Clusters and Subclusters](../sql/extensions/#grouping-data-into-clusters-and-subclusters) topic.
 
 
 | Label       | Control Type  | Description                                                                                                                                                                                                                        |

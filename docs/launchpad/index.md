@@ -83,9 +83,9 @@ Help worksheets are also provided for those people interested in knowing more de
 | ----- | ------------- | --------------------------------- |
 | source  | Toggle Button        | Show/Hide the [source](../source/) worksheet. |
 | console  | Toggle Button        | Show/Hide the [console](../console/) worksheet. |
-| attributes  | Toggle Button        | Show/Hide the [HELP - attributes](../workbook./#help-attributes-worksheet) worksheet. |
-| colors  | Toggle Button        | Show/Hide the [HELP - colors](../workbook./#help-colors-worksheet) worksheet. |
-| shapes  | Toggle Button        | Show/Hide the [HELP - shapes](../workbook./#help-shapes-worksheet) worksheet. |
+| attributes  | Toggle Button        | Show/Hide the [HELP - attributes](../workbook/#help-attributes-worksheet) worksheet. |
+| colors  | Toggle Button        | Show/Hide the [HELP - colors](../workbook/#help-colors-worksheet) worksheet. |
+| shapes  | Toggle Button        | Show/Hide the [HELP - shapes](../workbook/#help-shapes-worksheet) worksheet. |
 
 ## Maintenance
 
