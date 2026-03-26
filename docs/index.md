@@ -83,5 +83,5 @@ From data flows to org charts, timelines, ERDs and circuits, this tool makes com
 
 <center>
   <img src="/oss-community-choice-white.svg" width="96px" height="96px"/>
-<b>Excel to Graphviz</b> has been awarded the prestigious <a href="https://sourceforge.net/" target="_blank">SourceForge</a> <i>Community Choice</i> badge, celebrating 10,000+ downloads.
+Excel to Graphviz has earned the prestigious <i>Community Choice</i> badge from <a href="https://sourceforge.net/" target="_blank">SourceForge</a>, celebrating over 10,000 downloads as a top-tier open-source gem.
 </center>
