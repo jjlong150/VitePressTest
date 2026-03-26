@@ -34,7 +34,7 @@ The relationship between the two connected nodes is mutual.
 
 A **directed graph** (or **digraph**) uses edges with explicit direction, indicating a one‑way relationship from one node to another.
 
-![](../media/f4061834a61e3356bc65cc2c4ba4ab76.png)## Labels
+![](../media/f4061834a61e3356bc65cc2c4ba4ab76.png)
 
 ## Labels
 
@@ -130,9 +130,19 @@ A **port** can be combined with a node name to specify exactly where an edge sho
 
 Graphviz provides several built‑in port names that correspond to compass points:
 
-**N, S, E, W, NE, NW, SE, SW, C**  representing **North**, **South**, **East**, **West**, **North‑East**, **North‑West**, **South‑East**, **South‑West**, and **Center**.
+| Port Name | Represents |
+| :-------: | :--------: |
+| `c`       | Center     |
+| `n`       | North      |
+| `s`       | South      |
+| `e`       | East       |
+| `w`       | West       |
+| `ne`      | North-East |
+| `nw`      | North-West |
+| `se`      | South-East |
+| `sw`      | South-West |
 
-These ports allow you to control the entry and exit points of edges, which can help reduce crossings or emphasize directional flow.
+Ports allow you to control the entry and exit points of edges, which can help reduce crossings or emphasize directional flow.
 
 ![](../media/567dbee9f9f4ae3519b9d2c8b3f6dce6.png)
 
