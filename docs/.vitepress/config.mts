@@ -41,15 +41,15 @@ export default defineConfig({
           {
             text: 'Creating Graphs', link: '/create/',
             items: [
-              { text: 'Terminology', link: '/terminology/' },
-              { text: 'Create a New Workbook', link: '/prepare/' },
-              { text: '`data` Worksheet', link: '/dataworksheet/' },
-              { text: '`Graphviz` Tab', link: '/graphviztab/' },
-              { text: 'Type Data, See Graph', link: '/coreconcepts/' }
+              { text: 'Terminology', link: 'terminology/' },
+              { text: 'Create a New Workbook', link: 'prepare/' },
+              { text: '`data` Worksheet', link: 'dataworksheet/' },
+              { text: '`Graphviz` Tab', link: 'graphviztab/' },
+              { text: 'Type Data, See Graph', link: 'coreconcepts/' }
             ]
           },
           {
-            text: 'Add Style', link: 'addstyle/',
+            text: 'Add Style', link: '/addstyle/',
             items: [
               { text: 'Style Designer', link: 'designer/' },
               { text: 'Style Gallery', link: 'styles/' },
