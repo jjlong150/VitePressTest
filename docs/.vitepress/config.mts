@@ -24,7 +24,7 @@ export default defineConfig({
       },
     ],
     
-    logo: "/logo.png",
+    logo: "logo.png",
 
     sidebar: [
       {
@@ -39,13 +39,13 @@ export default defineConfig({
         text: 'Graphs',
         items: [
           {
-            text: 'Creating Graphs', link: '/create/',
+            text: 'Creating Graphs', link: 'create/',
             items: [
-              { text: 'Terminology', link: '/terminology/' },
-              { text: 'Create a New Workbook', link: '/prepare/' },
-              { text: '`data` Worksheet', link: '/dataworksheet/' },
-              { text: '`Graphviz` Tab', link: '/graphviztab/' },
-              { text: 'Type Data, See Graph', link: '/coreconcepts/' }
+              { text: 'Terminology', link: 'terminology/' },
+              { text: 'Create a New Workbook', link: 'prepare/' },
+              { text: '`data` Worksheet', link: 'dataworksheet/' },
+              { text: '`Graphviz` Tab', link: 'graphviztab/' },
+              { text: 'Type Data, See Graph', link: 'coreconcepts/' }
             ]
           },
           {
