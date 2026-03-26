@@ -53,6 +53,9 @@ jobs:
         run: |
           touch docs/.vitepress/dist/.github-pages
 
+      - name: Disable Jekyll
+          run: touch docs/.vitepress/dist/.nojekyll
+  
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
