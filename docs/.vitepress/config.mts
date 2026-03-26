@@ -56,9 +56,9 @@ export default defineConfig({
               { text: 'Create Views', link: 'views/' }
             ]
           },
-          { text: 'Publish Graphs', link: 'publish/' },
-          { text: 'Post-process SVG Files', link: 'svg/' },
-          { text: 'Advanced Graphviz Topics', link: 'advanced/' }
+          { text: 'Publish Graphs', link: '/publish/' },
+          { text: 'Post-process SVG Files', link: '/svg/' },
+          { text: 'Advanced Graphviz Topics', link: '/advanced/' }
             ]
       },
       {
