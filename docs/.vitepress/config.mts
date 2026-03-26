@@ -64,14 +64,14 @@ export default defineConfig({
       {
         text: 'Graphviz',
         items: [
-          { text: 'View DOT Source Code', link: 'source/' },
-          { text: 'DOT Message Console', link: 'console/' }
+          { text: 'View DOT Source Code', link: '/source/' },
+          { text: 'DOT Message Console', link: '/console/' }
         ],
       },
       {
         text: 'Data Manipulation',
         items: [
-          { text: 'Using SQL', link: 'sql/' },
+          { text: 'Using SQL', link: '/sql/' },
           { text: 'SQL to Graph Example', link: 'sql/queries/' },
           { text: 'SQL Extensions', link: 'sql/extensions/',
             items: [
@@ -99,7 +99,7 @@ export default defineConfig({
       {
         text: 'Data Exchange',
         items: [
-          { text: 'Using JSON Files', link: 'exchange/',
+          { text: 'Using JSON Files', link: '/exchange/',
             items: [
               { text: 'Export', link: 'exchange/export/' },
               { text: 'Import', link: 'exchange/import/' }
@@ -110,9 +110,9 @@ export default defineConfig({
       {
         text: 'Setup',
         items: [
-          { text: 'Download', link: 'download/' },
+          { text: 'Download', link: '/download/' },
           {
-            text: 'Install', link: 'install/',
+            text: 'Install', link: '/install/',
             items: [
               { text: 'Windows Instructions', link: 'install-win/' },
               { text: 'macOS Instructions', link: 'install-mac/' }
@@ -123,10 +123,10 @@ export default defineConfig({
       {
         text: 'Maintenance',
         items: [
-          { text: 'Diagnostics', link: 'diagnostics/' },
-          { text: 'Lists', link: 'lists/' },
-          { text: 'Settings', link: 'settings/' },
-          { text: 'Information', link: 'info/' }
+          { text: 'Diagnostics', link: '/diagnostics/' },
+          { text: 'Lists', link: '/lists/' },
+          { text: 'Settings', link: '/settings/' },
+          { text: 'Information', link: '/info/' }
         ],
       }
     ],
