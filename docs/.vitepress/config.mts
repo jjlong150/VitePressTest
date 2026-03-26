@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-    ['link', { rel: 'icon', href: 'favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   base: '/VitePressTest/',
   lang: 'en-US',
@@ -24,7 +24,7 @@ export default defineConfig({
       },
     ],
     
-    logo: "logo.png",
+    logo: "/logo.png",
 
     sidebar: [
       {
