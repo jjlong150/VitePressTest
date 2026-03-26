@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-    ['link', { rel: 'icon', href: 'favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   base: '/VitePressTest/',
   lang: 'en-US',
@@ -15,94 +15,94 @@ export default defineConfig({
       {
         text: "Resources",
             items: [
-              { text: 'About', link: 'about/' },
-              { text: 'License', link: 'license/' },
-              { text: 'Privacy', link: 'privacy/' },
-              { text: 'Credits', link: 'acknowledge/' },
-              { text: 'Changelog', link: 'changelog/' }
+              { text: 'About', link: '/about/' },
+              { text: 'License', link: '/license/' },
+              { text: 'Privacy', link: '/privacy/' },
+              { text: 'Credits', link: '/acknowledge/' },
+              { text: 'Changelog', link: '/changelog/' }
             ]
       },
     ],
     
-    logo: "logo.png",
+    logo: "/logo.png",
 
     sidebar: [
       {
         text: 'Getting Started',
         items: [
-          { text: 'Overview', link: 'overview/' },
-          { text: 'Workbook', link: 'workbook/' },
-          { text: 'Launchpad', link: 'launchpad/' },
+          { text: 'Overview', link: '/overview/' },
+          { text: 'Workbook', link: '/workbook/' },
+          { text: 'Launchpad', link: '/launchpad/' },
         ]
       },
       {
         text: 'Graphs',
         items: [
           {
-            text: 'Creating Graphs', link: 'create/',
+            text: 'Creating Graphs', link: '/create/',
             items: [
-              { text: 'Terminology', link: 'terminology/' },
-              { text: 'Create a New Workbook', link: 'prepare/' },
-              { text: '`data` Worksheet', link: 'dataworksheet/' },
-              { text: '`Graphviz` Tab', link: 'graphviztab/' },
-              { text: 'Type Data, See Graph', link: 'coreconcepts/' }
+              { text: 'Terminology', link: '/terminology/' },
+              { text: 'Create a New Workbook', link: '/prepare/' },
+              { text: '`data` Worksheet', link: '/dataworksheet/' },
+              { text: '`Graphviz` Tab', link: '/graphviztab/' },
+              { text: 'Type Data, See Graph', link: '/coreconcepts/' }
             ]
           },
           {
-            text: 'Add Style', link: 'addstyle/',
+            text: 'Add Style', link: '/addstyle/',
             items: [
-              { text: 'Style Designer', link: 'designer/' },
-              { text: 'Style Gallery', link: 'styles/' },
-              { text: 'Create Views', link: 'views/' }
+              { text: 'Style Designer', link: '/designer/' },
+              { text: 'Style Gallery', link: '/styles/' },
+              { text: 'Create Views', link: '/views/' }
             ]
           },
-          { text: 'Publish Graphs', link: 'publish/' },
-          { text: 'Post-process SVG Files', link: 'svg/' },
-          { text: 'Advanced Graphviz Topics', link: 'advanced/' }
+          { text: 'Publish Graphs', link: '/publish/' },
+          { text: 'Post-process SVG Files', link: '/svg/' },
+          { text: 'Advanced Graphviz Topics', link: '/advanced/' }
             ]
       },
       {
         text: 'Graphviz',
         items: [
-          { text: 'View DOT Source Code', link: 'source/' },
-          { text: 'DOT Message Console', link: 'console/' }
+          { text: 'View DOT Source Code', link: '/source/' },
+          { text: 'DOT Message Console', link: '/console/' }
         ],
       },
       {
         text: 'Data Manipulation',
         items: [
-          { text: 'Using SQL', link: 'sql/' },
-          { text: 'SQL to Graph Example', link: 'sql/queries/' },
-          { text: 'SQL Extensions', link: 'sql/extensions/',
+          { text: 'Using SQL', link: '/sql/' },
+          { text: 'SQL to Graph Example', link: '/sql/queries/' },
+          { text: 'SQL Extensions', link: '/sql/extensions/',
             items: [
-              { text: 'Directives', link: 'sql/directives/' },
-              { text: 'Clustering', link: 'sql/clustering/' },
-              { text: 'Count Substitution', link: 'sql/counts/' },
-              { text: 'Splitting Labels', link: 'sql/labelsplit/' },
-              { text: 'Chaining Nodes', link: 'sql/chaining/' },
-              { text: 'Creating Subgraphs', link: 'sql/subgraphs/' },
-              { text: 'Tree Traversal', link: 'sql/recursion/'},
-              { text: 'Iteration', link: 'sql/iterate/' },
-              { text: 'Enumeration', link: 'sql/enumerate/' } ,
-              { text: 'Concatenation', link: 'sql/concatenation/' }
+              { text: 'Directives', link: '/sql/directives/' },
+              { text: 'Clustering', link: '/sql/clustering/' },
+              { text: 'Count Substitution', link: '/sql/counts/' },
+              { text: 'Splitting Labels', link: '/sql/labelsplit/' },
+              { text: 'Chaining Nodes', link: '/sql/chaining/' },
+              { text: 'Creating Subgraphs', link: '/sql/subgraphs/' },
+              { text: 'Tree Traversal', link: '/sql/recursion/'},
+              { text: 'Iteration', link: '/sql/iterate/' },
+              { text: 'Enumeration', link: '/sql/enumerate/' } ,
+              { text: 'Concatenation', link: '/sql/concatenation/' }
                   ]
           },
           { text: 'Examples',
             items: [
-              { text: 'Organization Charts', link: 'sql/orgcharts/' },
-              { text: 'Timelines/Roadmaps', link: 'sql/timeline/' }
+              { text: 'Organization Charts', link: '/sql/orgcharts/' },
+              { text: 'Timelines/Roadmaps', link: '/sql/timeline/' }
                     ]
           },
-          { text: 'SQL Syntax', link: 'sql/syntax/' },
+          { text: 'SQL Syntax', link: '/sql/syntax/' },
         ]
       },
       {
         text: 'Data Exchange',
         items: [
-          { text: 'Using JSON Files', link: 'exchange/',
+          { text: 'Using JSON Files', link: '/exchange/',
             items: [
-              { text: 'Export', link: 'exchange/export/' },
-              { text: 'Import', link: 'exchange/import/' }
+              { text: 'Export', link: '/exchange/export/' },
+              { text: 'Import', link: '/exchange/import/' }
             ]
           },
         ]
@@ -110,12 +110,12 @@ export default defineConfig({
       {
         text: 'Setup',
         items: [
-          { text: 'Download', link: 'download/' },
+          { text: 'Download', link: '/download/' },
           {
-            text: 'Install', link: 'install/',
+            text: 'Install', link: '/install/',
             items: [
-              { text: 'Windows Instructions', link: 'install-win/' },
-              { text: 'macOS Instructions', link: 'install-mac/' }
+              { text: 'Windows Instructions', link: '/install-win/' },
+              { text: 'macOS Instructions', link: '/install-mac/' }
             ]
           }
         ]
@@ -123,10 +123,10 @@ export default defineConfig({
       {
         text: 'Maintenance',
         items: [
-          { text: 'Diagnostics', link: 'diagnostics/' },
-          { text: 'Lists', link: 'lists/' },
-          { text: 'Settings', link: 'settings/' },
-          { text: 'Information', link: 'info/' }
+          { text: 'Diagnostics', link: '/diagnostics/' },
+          { text: 'Lists', link: '/lists/' },
+          { text: 'Settings', link: '/settings/' },
+          { text: 'Information', link: '/info/' }
         ],
       }
     ],
