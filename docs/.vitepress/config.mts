@@ -39,7 +39,7 @@ export default defineConfig({
         text: 'Graphs',
         items: [
           {
-            text: 'Creating Graphs', link: 'create/',
+            text: 'Creating Graphs', link: '/create/',
             items: [
               { text: 'Terminology', link: 'terminology/' },
               { text: 'Create a New Workbook', link: 'prepare/' },
