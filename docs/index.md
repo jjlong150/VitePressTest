@@ -69,7 +69,7 @@ The **Relationship Visualizer** spreadsheet transforms your Excel tables into cl
 Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, this tool makes complex relationships instantly understandable.
 
 |  | |
-|--|--|
+| :--- |--|
 | **Draws as you type** | Live Graphviz rendering as data changes |
 | **Powerful styling** | Colors, shapes, fonts, arrows, reusable styles |
 | **Advanced features** | SQL queries, SVG animation, DOT preview, JSON exchange |
@@ -78,5 +78,5 @@ Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, thi
 | **Multilingual** | English, French, German, Italian, Polish |
 | **Open Source** | MIT License |
 | **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) appreciated |
-| <center>![SourceForge Community Choice Award](/oss-community-choice-light.svg)[![Download Excel to Graphviz](https://img.shields.io/sourceforge/dt/relationship-visualizer.svg)](https://sourceforge.net/projects/relationship-visualizer/files/latest/download)</center> |  SourceForge Community Choice award · 10,000+ downloads |
+| ![](/oss-community-choice-light.svg)[![Download Excel to Graphviz](https://img.shields.io/sourceforge/dt/relationship-visualizer.svg)](https://sourceforge.net/projects/relationship-visualizer/files/latest/download) |  SourceForge Community Choice award · 10,000+ downloads |
 | | |
