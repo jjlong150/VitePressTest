@@ -75,6 +75,6 @@ Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, thi
 | **Advanced features** | Run SQL queries on your data, preview DOT source, add SVG animations |
 | **Cross-platform** |  Works with Excel on 🪟 Windows and 🍎 macOS |
 | **Multilingual UI** | Provides a sleek, tabbed ribbon interface in English, French, German, Italian, and Polish |
-| **Absolutely Free** | No cost to use; [donations](https://buymeacoffee.com/exceltographviz) are appreciated |
+| **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) are appreciated |
 | ![](/oss-community-choice-white.svg) | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
 | | |
