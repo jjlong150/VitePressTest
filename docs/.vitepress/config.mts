@@ -64,8 +64,8 @@ export default defineConfig({
       {
         text: 'Graphviz',
         items: [
-          { text: 'View DOT Source Code', link: 'source/' },
-          { text: 'DOT Message Console', link: 'console/' }
+          { text: 'View DOT Source Code', link: '/source/' },
+          { text: 'DOT Message Console', link: '/console/' }
         ],
       },
       {
