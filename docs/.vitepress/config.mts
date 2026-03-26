@@ -41,19 +41,19 @@ export default defineConfig({
           {
             text: 'Creating Graphs', link: '/create/',
             items: [
-              { text: 'Terminology', link: 'terminology/' },
-              { text: 'Create a New Workbook', link: 'prepare/' },
-              { text: '`data` Worksheet', link: 'dataworksheet/' },
-              { text: '`Graphviz` Tab', link: 'graphviztab/' },
-              { text: 'Type Data, See Graph', link: 'coreconcepts/' }
+              { text: 'Terminology', link: '/terminology/' },
+              { text: 'Create a New Workbook', link: '/prepare/' },
+              { text: 'data Worksheet', link: '/dataworksheet/' },
+              { text: 'Graphviz Tab', link: '/graphviztab/' },
+              { text: 'Type Data, See Graph', link: '/coreconcepts/' }
             ]
           },
           {
             text: 'Add Style', link: '/addstyle/',
             items: [
-              { text: 'Style Designer', link: 'designer/' },
-              { text: 'Style Gallery', link: 'styles/' },
-              { text: 'Create Views', link: 'views/' }
+              { text: 'Style Designer', link: '/designer/' },
+              { text: 'Style Gallery', link: '/styles/' },
+              { text: 'Create Views', link: '/views/' }
             ]
           },
           { text: 'Publish Graphs', link: '/publish/' },
@@ -72,28 +72,28 @@ export default defineConfig({
         text: 'Data Manipulation',
         items: [
           { text: 'Using SQL', link: '/sql/' },
-          { text: 'SQL to Graph Example', link: 'sql/queries/' },
-          { text: 'SQL Extensions', link: 'sql/extensions/',
+          { text: 'SQL to Graph Example', link: '/sql/queries/' },
+          { text: 'SQL Extensions', link: '/sql/extensions/',
             items: [
-              { text: 'Directives', link: 'sql/directives/' },
-              { text: 'Clustering', link: 'sql/clustering/' },
-              { text: 'Count Substitution', link: 'sql/counts/' },
-              { text: 'Splitting Labels', link: 'sql/labelsplit/' },
-              { text: 'Chaining Nodes', link: 'sql/chaining/' },
-              { text: 'Creating Subgraphs', link: 'sql/subgraphs/' },
-              { text: 'Tree Traversal', link: 'sql/recursion/'},
-              { text: 'Iteration', link: 'sql/iterate/' },
-              { text: 'Enumeration', link: 'sql/enumerate/' } ,
-              { text: 'Concatenation', link: 'sql/concatenation/' }
+              { text: 'Directives', link: '/sql/directives/' },
+              { text: 'Clustering', link: '/sql/clustering/' },
+              { text: 'Count Substitution', link: '/sql/counts/' },
+              { text: 'Splitting Labels', link: '/sql/labelsplit/' },
+              { text: 'Chaining Nodes', link: '/sql/chaining/' },
+              { text: 'Creating Subgraphs', link: '/sql/subgraphs/' },
+              { text: 'Tree Traversal', link: '/sql/recursion/'},
+              { text: 'Iteration', link: '/sql/iterate/' },
+              { text: 'Enumeration', link: '/sql/enumerate/' } ,
+              { text: 'Concatenation', link: '/sql/concatenation/' }
                   ]
           },
           { text: 'Examples',
             items: [
-              { text: 'Organization Charts', link: 'sql/orgcharts/' },
-              { text: 'Timelines/Roadmaps', link: 'sql/timeline/' }
+              { text: 'Organization Charts', link: '/sql/orgcharts/' },
+              { text: 'Timelines/Roadmaps', link: '/sql/timeline/' }
                     ]
           },
-          { text: 'SQL Syntax', link: 'sql/syntax/' },
+          { text: 'SQL Syntax', link: '/sql/syntax/' },
         ]
       },
       {
@@ -101,8 +101,8 @@ export default defineConfig({
         items: [
           { text: 'Using JSON Files', link: '/exchange/',
             items: [
-              { text: 'Export', link: 'exchange/export/' },
-              { text: 'Import', link: 'exchange/import/' }
+              { text: 'Export', link: '/exchange/export/' },
+              { text: 'Import', link: '/exchange/import/' }
             ]
           },
         ]
@@ -114,8 +114,8 @@ export default defineConfig({
           {
             text: 'Install', link: '/install/',
             items: [
-              { text: 'Windows Instructions', link: 'install-win/' },
-              { text: 'macOS Instructions', link: 'install-mac/' }
+              { text: 'Windows Instructions', link: '/install-win/' },
+              { text: 'macOS Instructions', link: '/install-mac/' }
             ]
           }
         ]
