@@ -24,7 +24,7 @@ export default defineConfig({
       },
     ],
     
-    logo: "/logo.png",
+    logo: "logo.png",
 
     sidebar: [
       {
