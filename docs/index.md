@@ -66,6 +66,8 @@ The **Relationship Visualizer** spreadsheet transforms your Excel tables into cl
 
 ### Why Users Love It
 
+Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, this tool makes complex relationships instantly understandable.
+
 |  | |
 |--|--|
 | **Draws as you type** | Renders Graphiz graphs directly in Excel worksheets as data changes |
@@ -76,5 +78,3 @@ The **Relationship Visualizer** spreadsheet transforms your Excel tables into cl
 | **Absolutely Free** | No cost to use; [donations](https://buymeacoffee.com/exceltographviz) are appreciated |
 | ![](/oss-community-choice-white.svg) | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
 | | |
-  
-From data flows to org charts, timelines, ERDs and circuits, this tool makes complex relationships instantly understandable.
