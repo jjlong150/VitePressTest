@@ -70,11 +70,13 @@ Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, thi
 
 |  | |
 |--|--|
-| **Draws as you type** | Renders Graphiz graphs directly in Excel worksheets as data changes |
-| **Powerful styling** | Customize colors, shapes, fonts, arrows, and save reusable stylesheets |
-| **Advanced features** | Run SQL queries on your data, preview DOT source, add SVG animations |
-| **Cross-platform** |  Works with Excel on 🪟 Windows and 🍎 macOS |
-| **Multilingual UI** | Provides a sleek, tabbed ribbon interface in English, French, German, Italian, and Polish |
-| **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) are appreciated |
-| ![](/oss-community-choice-white.svg) | Open-source (MIT license), SourceForge Community Choice award winner, 10,000+ downloads |
+| **Draws as you type** | Live Graphviz rendering as data changes |
+| **Powerful styling** | Colors, shapes, fonts, arrows, reusable styles |
+| **Advanced features** | SQL queries, SVG animation, DOT preview, JSON exchange |
+| **Cross-platform** |  Works on 🪟 Windows and 🍎 macOS |
+| **Sleek UI** | Custom Excel ribbon tabs across all worksheets |
+| **Multilingual** | English, French, German, Italian, Polish |
+| **Open Source** | MIT License |
+| **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) appreciated |
+| ![SourceForge Community Choice Award](/oss-community-choice-white.svg) | SourceForge Community Choice award · 10,000+ downloads |
 | | |
