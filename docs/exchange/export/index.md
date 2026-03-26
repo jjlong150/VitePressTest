@@ -62,7 +62,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## Workbook Metadata
 
-![](../media/exchange_workbook_metadata.png)
+![](../../media/exchange_workbook_metadata.png)
 
 ```json
 {
@@ -82,7 +82,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## Worksheet Layouts
 
-![](../media/exchange_worksheet_layouts.png)
+![](../../media/exchange_worksheet_layouts.png)
 
 ```json
 {
@@ -143,7 +143,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## 'data' Worksheet
 
-![](../media/exchange_data_worksheet.png)
+![](../../media/exchange_data_worksheet.png)
 
 ```json
   "content": {
@@ -210,7 +210,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## 'styles' Worksheet
 
-![](../media/exchange_styles_worksheet.png)
+![](../../media/exchange_styles_worksheet.png)
 
 ```json
 {
@@ -254,7 +254,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## 'sql' Worksheet
 
-![](../media/exchange_sql_worksheet.png)
+![](../../media/exchange_sql_worksheet.png)
 
 ```json
     "content": {
@@ -325,7 +325,7 @@ The sections which follow provide samples of the JSON exported.
 
 ## 'svg' Worksheet
 
-![](../media/exchange_svg_worksheet.png)
+![](../../media/exchange_svg_worksheet.png)
 
 ```json
 {
