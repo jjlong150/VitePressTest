@@ -78,5 +78,5 @@ Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, thi
 | **Multilingual** | English, French, German, Italian, Polish |
 | **Open Source** | MIT License |
 | **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) appreciated |
-| ![SourceForge Community Choice Award](/oss-community-choice-white.svg) | SourceForge Community Choice award · 10,000+ downloads |
+| <center>![SourceForge Community Choice Award](/oss-community-choice-light.svg)[![Download Excel to Graphviz](https://img.shields.io/sourceforge/dt/relationship-visualizer.svg)](https://sourceforge.net/projects/relationship-visualizer/files/latest/download)</center> |  SourceForge Community Choice award · 10,000+ downloads |
 | | |
