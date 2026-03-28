@@ -67,8 +67,8 @@ export default defineConfig({
             items: [
               { text: 'Terminology', link: '/terminology/' },
               { text: 'Create a New Workbook', link: '/prepare/' },
-              { text: 'Worksheet: data', link: '/dataworksheet/' },
-              { text: 'Ribbon Tab: Graphviz', link: '/graphviztab/' },
+              { text: 'Data Worksheet', link: '/dataworksheet/' },
+              { text: 'Graphviz Tab', link: '/graphviztab/' },
               { text: 'Core Concepts', link: '/coreconcepts/' }
             ]
           },
