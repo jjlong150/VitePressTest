@@ -1,9 +1,32 @@
 import { defineConfig } from 'vitepress'
+import { blogPlugin } from 'vitepress-plugin-blog/plugin'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // VitePress plugins are configured under the `vite` property
+  // Here we add the blog plugin to enable blogging features in our VitePress site
+  // The blog plugin will automatically generate blog pages based on the content in the `blog` directory
+  // For more information on how to use the blog plugin, see the documentation:
+  // https://vitepress.dev/reference/plugin-blog
+  // https://github.com/humanbydefinition/vitepress-plugin-blog
+
+  vite: {
+    plugins: [blogPlugin()]
+  },
+  
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    // Favicon (browser tab icon)
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+
+    // Simple Analytics
+    // This script is added to the head of the HTML document to enable Simple Analytics tracking on the site.
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://scripts.simpleanalyticscdn.com/latest.js'
+      }
+    ]
   ],
   base: '/VitePressTest/',
   lang: 'en-US',
@@ -12,8 +35,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      {
-        text: "Resources",
+      { text: 'Blog', link: '/blog/' },
+      { text: "Resources",
             items: [
               { text: 'About', link: '/about/' },
               { text: 'License', link: '/license/' },
@@ -44,9 +67,9 @@ export default defineConfig({
             items: [
               { text: 'Terminology', link: '/terminology/' },
               { text: 'Create a New Workbook', link: '/prepare/' },
-              { text: 'data Worksheet', link: '/dataworksheet/' },
-              { text: 'Graphviz Tab', link: '/graphviztab/' },
-              { text: 'Type Data, See Graph', link: '/coreconcepts/' }
+              { text: 'Worksheet: data', link: '/dataworksheet/' },
+              { text: 'Ribbon Tab: Graphviz', link: '/graphviztab/' },
+              { text: 'Core Concepts', link: '/coreconcepts/' }
             ]
           },
           {
@@ -164,5 +187,21 @@ export default defineConfig({
         link: 'https://buymeacoffee.com/exceltographviz',
         ariaLabel: 'Buy Me a Coffee' }
     ]
+  },
+
+  transformPageData(pageData) {
+    // Hide sidebar-based Prev/Next links on blog posts only
+    const isBlogPost = 
+      pageData.frontmatter?.blogPost === true ||
+      pageData.relativePath?.startsWith('blog/posts/')
+
+    if (isBlogPost) {
+      pageData.frontmatter.prev = false
+      pageData.frontmatter.next = false
+      // Optional: also hide the right "On this page" outline
+      // pageData.frontmatter.aside = false
+    }
+
+    return pageData
   }
 })

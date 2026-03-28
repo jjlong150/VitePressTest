@@ -20,7 +20,6 @@ hero:
       text: Install
       link: /install/
 
-
 features:
   - icon:
       dark: /share-2.svg

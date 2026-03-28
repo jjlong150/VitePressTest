@@ -1,6 +1,8 @@
 # The `Graphviz` Ribbon Tab
 
-Now that you understand the basics to create graphs, let us look at the features contained in the `Graphviz` ribbon tab. The `Graphviz` ribbon tab is activated whenever the `data` `graph`, `styles`, `settings` or `about…` worksheet is activated. It appears as follows:
+Now that you understand the basics of the `data` worksheet, let's explore the features available in the `Graphviz` ribbon tab. 
+
+The `Graphviz` ribbon tab activates automatically whenever  any of the following worksheets is selected: `data` `graph`, `styles`, `settings` or `about…`. It looks like this:
 
 `Windows`
 

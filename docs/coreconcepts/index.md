@@ -1,4 +1,4 @@
-# Type Data, See Graph
+# Core Concepts
 
 The simplest way to draw a graph is to place values in the `Item` and the `Related Item` columns. 
 

@@ -1,4 +1,4 @@
-# `data` Worksheet
+# The `data` Worksheet
 
 The `data` worksheet is the core worksheet you will use to create graphs. 
 
