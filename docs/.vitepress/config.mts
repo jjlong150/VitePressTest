@@ -76,14 +76,14 @@ export default defineConfig({
             link: '/create/',
             items: [
               { text: 'Terminology', link: '/terminology/' },
-              { text: 'Create a New Workbook', link: '/prepare/' },
+              { text: 'New Workbook', link: '/prepare/' },
               { text: 'Data Worksheet', link: '/dataworksheet/' },
               { text: 'Graphviz Tab', link: '/graphviztab/' },
               { text: 'Core Concepts', link: '/coreconcepts/' }
             ]
           },
           {
-            text: 'Add Style', 
+            text: 'Styling & Views', 
             link: '/addstyle/',
             items: [
               { text: 'Style Designer', link: '/designer/' },
@@ -92,7 +92,7 @@ export default defineConfig({
             ]
           },
           { text: 'Publish Graphs', link: '/publish/' },
-          { text: 'Post-process SVG Files', link: '/svg/' },
+          { text: 'SVG Post-Processing', link: '/svg/' },
           { text: 'Advanced Graphviz Topics', link: '/advanced/' }
             ]
       },
@@ -114,7 +114,7 @@ export default defineConfig({
               { text: 'Directives', link: '/sql/directives/' },
               { text: 'Clustering', link: '/sql/clustering/' },
               { text: 'Count Substitution', link: '/sql/counts/' },
-              { text: 'Splitting Labels', link: '/sql/labelsplit/' },
+              { text: 'Label Splitting', link: '/sql/labelsplit/' },
               { text: 'Chaining Nodes', link: '/sql/chaining/' },
               { text: 'Creating Subgraphs', link: '/sql/subgraphs/' },
               { text: 'Tree Traversal', link: '/sql/recursion/'},
@@ -126,7 +126,7 @@ export default defineConfig({
           { text: 'Examples',
             items: [
               { text: 'Organization Charts', link: '/sql/orgcharts/' },
-              { text: 'Timelines/Roadmaps', link: '/sql/timeline/' }
+              { text: 'Timelines & Roadmaps', link: '/sql/timeline/' }
                     ]
           },
           { text: 'SQL Syntax', link: '/sql/syntax/' },

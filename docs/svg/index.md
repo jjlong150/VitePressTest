@@ -1,8 +1,8 @@
-# Post‑process SVG Files
+# Post‑Process SVG Files
 
-Graphviz can generate output in SVG format, and this is one of the formats supported by the `Publish` and `Publish all views` features.
+Graphviz can generate SVG output using the `Publish` and `Publish all views` features.
 
-The Relationship Visualizer extends this capability by allowing you to post‑process the generated SVG. Through simple find‑and‑replace rules, you can modify the SVG’s XML to add styling, adjust structure, or even inject JavaScript for animations and interactive behaviors.
+**Relationship Visualizer** extends this by allowing you to post‑process the generated SVG. Using simple find‑and‑replace rules, you can modify the SVG’s XML to add styling, adjust structure, or inject JavaScript for animations and interactive behaviors.
 
 :::tip What is SVG?
 
@@ -13,7 +13,7 @@ The Relationship Visualizer extends this capability by allowing you to post‑pr
 Post‑processing refers to the transformations applied to an SVG *after* Graphviz has finished generating it. While Graphviz produces a structurally correct diagram, the raw SVG often benefits from additional cleanup or enhancement.
 :::
 
-The animated GIF below shows a screen capture of a Graphviz‑generated SVG with animation added through post‑processing:
+The animated GIF below shows a Graphviz‑generated SVG with post‑processing applied to add animation.
 
 ![](./animated-svg.gif)
 
