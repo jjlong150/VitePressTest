@@ -194,8 +194,7 @@ You choose colors by clicking on any of the color drop‑down arrows to open a g
 
 Hovering over a color shows its name, such as *HotPink1* in the example below:
 
-| ![](./color_scheme_x11_choices.png) |
-| --- |
+![](./color_scheme_x11_choices.png)
 
 When you click on a color, the **Style Designer** ribbon updates to show both the color and its name. 
 
@@ -203,15 +202,13 @@ The color name is added as an attribute in the **Format String**, and a preview 
 
 In the example below, `HotPink1` has been selected as the font color:
 
-| ![](./color_scheme_x11_hotpink1.png) |
-| --- |
+![](./color_scheme_x11_hotpink1.png)
 
 ### Selecting a Color Using RGB (Red Green Blue) Values
 
 In addition to choosing from predefined color schemes, you can specify a custom color using the **Color Dialog**.  To the right of each color choice dropdown is a small button with color icon which appears as:
 
-| ![](./color_picker_button.png) |
-| --- |
+![](./color_picker_button.png)
 
 This dialog provides a native interface for selecting colors on your operating system:
 
@@ -235,9 +232,7 @@ When you select a color in the dialog:
 
 In the example below, both the **Font Name** and the **Font Color** have been specified, with the font color defined as an RGB value:
 
-| ![](./color_picker_barbie_pink.png) |
-| --- |
-
+![](./color_picker_barbie_pink.png)
 
 ## Labels
 
@@ -266,8 +261,7 @@ These preview images are cached for future use. You may notice a slight delay th
 
 An example **Font Name** gallery on Windows 11 appears as follows:
 
-| ![](./font_gallery.png) |
-| -- |
+![](./font_gallery.png)
 
 ### Selecting a Font
 
@@ -282,8 +276,7 @@ When you choose a font (e.g., `Comic Sans MS`):
 
 For example:
 
-| ![](./font_comic_sans.png) |
-| -- |
+![](./font_comic_sans.png)
 
 ### Label Location
 
@@ -319,8 +312,7 @@ Click on the `Shape` drop-down button.
 
 A gallery of shapes supported by Graphviz is presented showing a sample image of the shape. 
 
-| ![](./shape_gallery.png) |
-| --- |
+![](./shape_gallery.png)
 
 Here we pick one of the rectangle shapes. When you select a shape:
 
@@ -328,8 +320,7 @@ Here we pick one of the rectangle shapes. When you select a shape:
 - The shape name is added as an attribute in the **Format String** (e.g., `shape=rect`).  
 - A preview image is generated to show how the node will appear when rendered by Graphviz.
 
-| ![](./shape_rect.png) |
-| --- |
+![](./shape_rect.png)
 
 ### Polygon Shapes
 
@@ -432,8 +423,7 @@ The **sides** attribute controls the number of polygon sides used when drawing a
 
 When you set **sides**, the chosen value is displayed in the **Style Designer** ribbon, added to the **Format String** (e.g., `sides=6`), and shown in the preview image.
 
-| ![](./polygon_sides_choices.png)| 
-| --- |  
+![](./polygon_sides_choices.png)
 
 #### sides=8
 
@@ -530,12 +520,9 @@ The **fixedsize** attribute controls whether a node’s shape is drawn at a fixe
   - This ensures consistent vertical sizing while accommodating longer text.  
   - Useful for diagrams where uniform height is desired, but labels vary in length.
 
-
-
 When you enable **fixedsize**, the chosen values are displayed in the **Style Designer** ribbon, added to the **Format String** (e.g., `shape=rect height=1 width="1.5" fixedsize=True`), and shown in the preview image.
 
-| ![](./shape_dimensions.png) |
-| --- |
+![](./shape_dimensions.png)
 
 ## Borders 
 
@@ -543,13 +530,11 @@ When you enable **fixedsize**, the chosen values are displayed in the **Style De
 
 Up to 3 border styles are selectable and are additive making it possible to have styles such as bold edge and rounded corners. When you click on any of the 'Border Style' drop-down lists you will be presented with the list of choices along with a sample image of the style.
 
-| ![](./border_styles.png) |
-| --- |
+![](./border_styles.png)
 
 In this example `Style 1` as `rounded` to give the rectangle rounded corners.
 
-| ![](./border_styles_rounded.png) |
-| --- |
+![](./border_styles_rounded.png)
 
 The **Style Designer** provides an adaptive interface for applying multiple border styles.  
 As you make selections, additional style options appear dynamically:
@@ -560,8 +545,7 @@ As you make selections, additional style options appear dynamically:
 
 This adaptive behavior makes it easy to combine multiple visual effects without cluttering the interface.
 
-| ![](./border_styles_rounded_dashed.png) |
-| --- |
+![](./border_styles_rounded_dashed.png)
 
 ### Border Color
 
@@ -571,15 +555,13 @@ The **Border Color** controls allow you to specify the color of a node shape or 
 
 For example:
 
-| ![](./border_color.png) |
-| --- |
+![](./border_color.png)
 
 ### Border Pen Width
 
 The **penwidth** attribute controls the thickness of lines used to draw node borders and edges.
 
-| ![](../media/f7211d46e2acc6a5c48f05c3cf74ea74.png) |
-| --- |
+![](../media/f7211d46e2acc6a5c48f05c3cf74ea74.png)
 
 - **penwidth=1.0** (default)  
   - Standard line thickness.  
@@ -597,15 +579,13 @@ The **penwidth** attribute controls the thickness of lines used to draw node bor
 
 For example:
 
-| ![](./border_penwidth.png) |
-| --- |
+![](./border_penwidth.png)
 
 ### Border Peripheries
 
 The **peripheries** attribute controls how many borders (or outlines) are drawn around a node shape.
 
-| ![](../media/9e94e4e8656094038ea4f27b5e8c2a56.png) |
-| --- |
+![](../media/9e94e4e8656094038ea4f27b5e8c2a56.png)
 
 - **peripheries=1** (default)  
   - A single border is drawn around the shape.  
@@ -619,8 +599,7 @@ The **peripheries** attribute controls how many borders (or outlines) are drawn 
 
 For example:
 
-| ![](./border_peripheries.png) |
-| --- |
+![](./border_peripheries.png)
 
 ## Fills
 
@@ -641,8 +620,7 @@ When you specify a fill color:
 
 For example:
 
-| ![](./color_fillcolor.png) |
-| --- |
+![](./color_fillcolor.png)
 
 ### Gradient Fill Color
 
@@ -653,8 +631,7 @@ Notice that the ribbon dynamically changes once a `Fill Color` is specified to d
 
 A `Gradient Fill Color` allows you to select a second color which the Fill Color will gradually transition to. If you select `HotPink` as the `Gradient Fill Color` the preview image changes to look like:
 
-| ![](../media/01dfe10d95d9076008cee3003c05b52d.png) |
-| --- |
+![](../media/01dfe10d95d9076008cee3003c05b52d.png)
 
 Another set of dynamic changes occur as three additional choices `Type`, `Angle`, and `Weight` appear to the right of the fill color selections. These choices allow you to define how the gradient transition occurs. 
 
@@ -666,8 +643,7 @@ Gradient types can be used to highlight relationships, emphasize categories, or 
 
 The Gradient Type is either `filled` (i.e., linear) or `radial`.
 
-| ![](../media/c6de51ed69e5ddbb83de8ab31a145357.png)|
-| --- |
+![](../media/c6de51ed69e5ddbb83de8ab31a145357.png)
 
 The differences are illustrated below:
 
@@ -764,15 +740,11 @@ By choosing the appropriate path type, you can balance **portability** (relative
 
 Switch to the `settings` worksheet and locate the "Image Path:" setting in the 'Graph Options' section. To the right of the cell is a button with three dots […]. If you press that button it will bring up the standard directory selection dialog which you can use to choose the directory where the images are stored. Navigate to the directory and press the "OK" button to transfer the path to the cell.
 
-| ![](../media/6c9b1c72a6c130a6ee8b4410456ac9b9.png)   | 
-| :--: |
-
+![](../media/6c9b1c72a6c130a6ee8b4410456ac9b9.png)
 
 Your settings should appear like this:
 
-| ![](../media/5917de49831274d8adc04972405be847.png)   | 
-| :--: |
-
+![](../media/5917de49831274d8adc04972405be847.png)
 
 ### Specify an image
 
@@ -781,9 +753,7 @@ Image name is an option on the `style designer` worksheet that is useful when yo
 
 **Step 1** - Define a shape. For this example a rectangle will be used.
 
-| ![](./image_start.png)   | 
-| :--: |
-
+![](./image_start.png)
 
 **Step 2** - Look to the far right side of the Ribbon to find the image controls.
 
@@ -794,8 +764,7 @@ Press the `Choose Image` button
 
 Navigate to the directory containing the images and choose an image. A small image is selected in order to demonstrate scaling and placement.
 
-| ![](./image_select_a_file.png)   | 
-| :--: |
+![](./image_select_a_file.png)
 
 The image by default is placed in the center of the node. For example:
 
@@ -854,8 +823,6 @@ You can reposition the image within the node by selecting a Position radio butto
 | | | |
 | Bottom Center | ![](./image_position_bc.png) | ![](./image_position_bc_preview.png)  | 
 
-
-
 ## Edges
 
 Edges can have styles just as nodes do.  
@@ -877,8 +844,7 @@ To create an edge style definition in the **Style Designer** worksheet:
 
 The style designer worksheet appearance changes to look as follows:
 
-| ![](./edge_reset.png) |
-| :--: |
+![](./edge_reset.png)
 
 ### Edge Labels
 
@@ -905,16 +871,14 @@ These attributes control the visual appearance and relative importance of edges 
   - Common values include `solid`, `dashed`, `dotted`, `bold`, and `tapered`.  
   - For example, `style=dashed` produces a broken line, while `style=bold` thickens the edge for emphasis.  
 
-| ![](./edge_style_style.png) |
-| :--: |
+![](./edge_style_style.png)
 
 - **Penwidth**  
   - Specifies the thickness of the edge line.  
   - Larger values produce heavier lines, useful for highlighting important connections.  
   - Example: `penwidth=2.0` doubles the default line thickness.  
 
-| ![](./edge_style_penwidth.png) |
-| :--: |
+![](./edge_style_penwidth.png)
 
 - **Weight**  
   - Influences how strongly the edge affects the layout.  
@@ -995,15 +959,13 @@ When you select a direction, the chosen value is displayed in the **Style Design
 | | |
 | `dir=both` | ![](./edge_direction_both.png)  | ![](./edge_direction_both_preview.png)|
 
-
 > Arrowhead and arrowtail styles will be described in detail in a later section.
 
 ### Arrow Size
 
 The **arrowsize** attribute scales the size of an edge’s arrowhead or arrowtail.  
 
-| ![](./edge_arrowsize.png) |
-| :--: |
+![](./edge_arrowsize.png)
 
 It acts as a simple multiplier applied to the base size of the selected arrow style.
 
@@ -1061,8 +1023,7 @@ Graphviz provides a rich collection of arrowhead and arrowtail glyphs that you c
 
 The following gallery shows the complete set of arrow glyphs supported by Graphviz. These shapes can be used for both **arrowheads** and **arrowtails**, and up to three may be combined in sequence to form a compound style. Use this reference to explore the available options and choose the combinations that best fit your diagram’s purpose.
 
-| ![](./edge_glyphs.png) |
-| :-: |
+![](./edge_glyphs.png)
 
 The arrowhead and arrowtail glyphs shown above use the standard Graphviz names.  
 From left to right, each glyph is labeled with its corresponding attribute value  
@@ -1102,8 +1063,7 @@ These attributes provide a way to differentiate the text at the end of the edges
 
 Appears as: 
 
-| ![](../media/d3146f7f10011c4c1738cdf5094d75f6.png) |
-|----------------------------------------------------|
+![](../media/d3146f7f10011c4c1738cdf5094d75f6.png)
 
 With Format string: 
 
@@ -1128,8 +1088,7 @@ For example, setting the label angle to 90 degrees:
 
 Appears as: 
 
-| ![](../media/e144fb147a088b5a29a80cf391fc6488.png) |
-|----------------------------------------------------|
+![](../media/e144fb147a088b5a29a80cf391fc6488.png)
 
 With Format String:
 
@@ -1155,8 +1114,7 @@ In short, `labeldistance` tells Graphviz to move the label **closer or farther**
 
 For example, `labeldistance=3` appears as: 
 
-| ![](../media/4096c8a32f9f7f755dd5db3d68f7513d.png) |
-|----------------------------------------------------|
+![](../media/4096c8a32f9f7f755dd5db3d68f7513d.png)
 
 With Format String:
 
@@ -1173,8 +1131,7 @@ This example depicts when `labelangle=` and `labeldistance=` attributes are used
 
 Appears as: 
 
-| ![](../media/726ea98317e2b666d5c3143d436e03a3.png) |
-|----------------------------------------------------|
+![](../media/726ea98317e2b666d5c3143d436e03a3.png)
 
 With Format String:
 
@@ -1190,8 +1147,7 @@ If a compass point is used, it must be one of the following: `n`, `ne`, `e`, `se
 
 Appears As:
 
-| ![](../media/9761139853713845c282cc6de415edaf.png) |
-|----------------------------------------------------|
+![](../media/9761139853713845c282cc6de415edaf.png)
 
 With Format String:
 
@@ -1207,8 +1163,7 @@ If a compass point is used, it must be one of the following: `n`, `ne`, `e`, `se
 
 Appears as: 
 
-| ![](../media/9c7559d33c6e09fe77a9644cca7559a8.png) |
-|----------------------------------------------------|
+![](../media/9c7559d33c6e09fe77a9644cca7559a8.png)
 
 With Format String:
 
@@ -1270,8 +1225,7 @@ To create a cluster style definition in the **Style Designer** worksheet:
 
 The style designer worksheet appearance changes to look as follows:
 
-| ![](./edge_reset.png) |
-| :--: |
+![](./edge_reset.png)
 
 ### Color Scheme
 
