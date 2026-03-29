@@ -11,7 +11,11 @@ export default defineConfig({
   // https://github.com/humanbydefinition/vitepress-plugin-blog
 
   vite: {
-    plugins: [blogPlugin()]
+    plugins: [
+      blogPlugin({
+        postsDir: 'blog/posts',
+      })
+    ]
   },
   
   head: [
