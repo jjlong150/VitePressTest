@@ -83,7 +83,7 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Styling & Views', 
+            text: 'Styling and Views', 
             link: '/addstyle/',
             items: [
               { text: 'Style Designer', link: '/designer/' },
@@ -126,7 +126,7 @@ export default defineConfig({
           { text: 'Examples',
             items: [
               { text: 'Organization Charts', link: '/sql/orgcharts/' },
-              { text: 'Timelines & Roadmaps', link: '/sql/timeline/' }
+              { text: 'Timelines and Roadmaps', link: '/sql/timeline/' }
                     ]
           },
           { text: 'SQL Syntax', link: '/sql/syntax/' },
