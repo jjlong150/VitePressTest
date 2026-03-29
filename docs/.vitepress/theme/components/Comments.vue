@@ -1,6 +1,5 @@
 <template>
   <div class="comments-wrapper">
-    <h2>💬 Comments</h2>
     <div id="giscus-container"></div>
   </div>
 </template>
