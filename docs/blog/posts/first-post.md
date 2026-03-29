@@ -2,15 +2,21 @@
 blogPost: true
 title: Welcome to the Excel to Graphviz Blog
 description: Excel to Graphviz has a blog!
-date: 2026-03-26 
+date: 2026-03-26
 author: jjlong150
 tags: ['excel', 'graphviz', 'blog']
 published: true
 readingTime: true
-sidebar: true
+sidebar: false
 ---
 
-Today we’re launching a new space for quick news, tips, and tricks to help you get more out of **Excel to Graphviz**. You’ll find short posts highlighting new features, practical modeling techniques, and behind‑the‑scenes insights as the project evolves.
+Today I'm launching a new space for quick news, tips, and practical insights to help you get more out of **Excel to Graphviz**.
 
-More posts coming soon.
+You’ll find short posts covering:
+- New features and improvements
+- Useful modeling techniques
+- Behind-the-scenes development updates
+
+More posts are coming soon. Stay tuned!
+
 <Comments />

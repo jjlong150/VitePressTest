@@ -2,24 +2,26 @@
 blogPost: true
 title: A Fresh New Look for the Excel to Graphviz Website
 description: This website has a new look, and a new engine.
-date: 2026-03-27  
+date: 2026-03-27
 author: jjlong150
-tags: ['vuepress', 'vitepress']
+tags: ['vitepress', 'vuepress', 'redesign']
 published: true
 readingTime: true
-sidebar: true
+sidebar: false
 ---
 
-The **Excel to Graphviz** website has a refreshed look, and now runs on [VitePress](https://vitepress.dev). This refresh replaces the older [VuePress](https://vuepress.vuejs.org) engine with its modern successor.
+The **Excel to Graphviz** website has a refreshed design and now runs on [VitePress](https://vitepress.dev), the modern successor to VuePress.
 
-VuePress served the project well, but it’s no longer evolving at the same pace. VitePress is the natural next step: faster, simpler, and built on a more active ecosystem.
+VuePress served the project well for years, but VitePress offers a faster, simpler, and more actively maintained foundation. This upgrade brings several meaningful improvements:
 
-The upgrade also unlocks several improvements:
+- Cleaner, more responsive design
+- Improved sidebar navigation
+- Full-text search
+- Dark mode support
+- Built-in blogging capability
 
-- Sidebar navigation  
-- Full‑text search
-- Dark Mode for comfortable reading
-- Blogging for sharing news, tips, tricks
+The transition provides a much smoother experience across all devices and gives us a stronger platform for future enhancements.
 
-This transition gives the project a cleaner foundation and a smoother experience across devices. More enhancements are on the way.
+More updates and features are already in the works.
+
 <Comments />

@@ -10,9 +10,10 @@ const blogTheme = withBlogTheme(DefaultTheme)
 export default {
   ...blogTheme,
   enhanceApp(ctx) {
+    // Call the blog theme's enhanceApp first
     blogTheme.enhanceApp?.(ctx)
-    
-    // Register Comments component globally
+
+    // Then register our Comments component
     ctx.app.component('Comments', Comments)
   }
 } satisfies Theme

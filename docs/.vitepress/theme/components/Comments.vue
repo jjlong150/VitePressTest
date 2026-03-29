@@ -2,10 +2,13 @@
   <div id="giscus-container" class="comments-wrapper"></div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { onMounted } from 'vue'
 
 onMounted(() => {
+  // Prevent duplicate instances
+  document.querySelectorAll('.giscus').forEach(el => el.remove())
+
   const script = document.createElement('script')
   script.src = 'https://giscus.app/client.js'
   script.setAttribute('data-repo', 'jjlong150/excel-to-graphviz-comments')
@@ -30,7 +33,7 @@ onMounted(() => {
 })
 </script>
 
-<style>
+<style scoped>
 .comments-wrapper {
   margin-top: 2rem;
   padding-top: 1.5rem;
