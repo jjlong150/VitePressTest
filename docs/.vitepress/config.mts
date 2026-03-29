@@ -15,7 +15,11 @@ export default defineConfig({
       blogPlugin({
         postsDir: 'blog/posts',
       })
-    ]
+    ],
+    // Suppress the fs/path warnings
+    ssr: {
+      noExternal: ['vitepress-plugin-blog']
+    }
   },
   
   head: [
