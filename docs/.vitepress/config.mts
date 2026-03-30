@@ -91,7 +91,7 @@ export default defineConfig({
               { text: 'Create Views', link: '/views/' }
             ]
           },
-          { text: 'Publish Graphs', link: '/publish/' },
+          { text: 'Publishing Graphs', link: '/publish/' },
           { text: 'SVG Post-Processing', link: '/svg/' },
           { text: 'Advanced Graphviz Topics', link: '/advanced/' }
             ]
