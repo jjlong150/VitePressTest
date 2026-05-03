@@ -1,12 +1,8 @@
-# Changelog
+# Change Log
 
-## Version 10.4.0 - April 26, 2026
+## Version 10.4.0
 
-This release provides several small but meaningful usability improvements.
-
-**Enhancements**
-
-The Relationship Visualizer received the following improvements:
+This release provides several small but meaningful usability improvements:
 
 - **Enhanced placeholder engine for labels** - Node, edge, cluster, and graph label builders now support template‑driven placeholders (`{label}`, `{xlabel}`, `{taillabel}`, `{headlabel}`), allowing `styles` worksheet formats to dynamically expand or fall back to data‑layer values. 
 
@@ -19,7 +15,7 @@ The Relationship Visualizer received the following improvements:
 
 - **Comprehensive module documentation for DeepWiki** - All VBA modules have been updated with clear, structured header comments to improve DeepWiki's analysis and generate more accurate, better‑organized documentation throughout the project.
 
-## Version 10.3.0 - April 3, 2026
+## Version 10.3.0
 
 This release continues to expand the **SQL capabilities** of the Relationship Visualizer.
 
@@ -42,43 +38,45 @@ The Relationship Visualizer received the following improvements:
 
 - **Revised refresh‑all‑previews behavior** – Removed the progress‑bar dialog displayed when refreshing all style previews. Percent‑complete progress is now shown in the status bar. [(#16, closed)](https://github.com/jjlong150/ExcelToGraphviz/issues/16)
 
-## Version 10.2.0 – February 27, 2026
+## Version 10.2.0
 
 This small release focuses primarily on expanding the **SQL capabilities** of the Relationship Visualizer.
 
-**Enhancements**
+### Enhancements
 
 The Relationship Visualizer received the following improvements:
 
 - **Added SQL placeholder substitution** – SQL extensions now support `SET PLACEHOLDER name = value` definitions and expand `{name}` tokens in statements before execution, enabling template‑style SQL for parameter‑driven queries.
 - **Added filename sanitization** – Introduced a routine that replaces invalid characters in filenames to prevent file write errors.
 
-## Version 10.1.0 – February 9, 2026
+## Version 10.1.0
 
-This release focuses primarily on expanding the **SQL capabilities** of the Relationship Visualizer, along with meaningful UX improvements for everyday workflow.
+This release focuses primarily on expanding the **SQL capabilities** of the Relationship Visualizer.
 
-**Enhancements**
+### Enhancements
 
 The Relationship Visualizer received the following improvements:
 
-- **Concatenation Mode for Iterative SQL Queries** — Combine multiple detail records into a single string per header row (e.g., list of songs under an album, list of countries per continent, etc.).
-- **Floating Action Buttons** — Context-sensitive floating icons now appear next to selected cells in supported columns. Each button triggers a specific action:
-  - *'sql' Worksheet*:
-    - `✎` Edit this SQL statement
-    - `▶` Run this SQL statement
-    - `⌕` View query status using a dialog
-  - *'styles' Worksheet*:
+- **Concatenation Mode for Iterative SQL Queries** - Combine multiple detail records into a single string per header row (e.g. list of songs under an album, list of countries per continent, etc.).
+  
+- **Floating Action Buttons** - Context-sensitive floating icons now appear next to selected cells in supported columns. Each button triggers a specific action:
+  - *'sql' Worksheet*
+    -  `✎` Edit this SQL statement
+    -  `▶` Run this SQL statement
+    -  `⌕` View query status using a dialog 
+  - *'styles' Worksheet*
     - `✎` Edit this style in the Style Designer
-    - `↻` Refresh this style's preview image  
+    - `↻` Refresh this style's preview image 
 
-  Buttons auto-appear/disappear on selection, respect sheet protection, and support per-button validation (e.g., SQL only shows "Run" when SQL row is active and begins with `SELECT`).
-- **Image Zoom Dropdown List** — Restored the Image Zoom dropdown list which was removed in the V9.0 UI refresh. The v9.0 Zoom In (+) and Zoom Out (-) buttons, and the 5% increments from 5%-150% have been retained.
+  Buttons auto-appear/disappear on selection, respect sheet protection, and support per-button validation (e.g. SQL only shows "Run" when SQL row is active and begins with `SELECT`).
 
-## Version 10.0.0 – January 23, 2026
+- **Image Zoom Dropdown List** - Restored the Image Zoom dropdown list which was removed in the V9.0 UI refresh. The v9.0 Zoom In (+) and Zoom Out (-) buttons, and the 5% increments from 5%-150% have been retained.
+
+## Version 10.0.0
 
 This release focuses primarily on expanding and strengthening the **SQL capabilities** of the Relationship Visualizer.
 
-**Enhancements**
+### Enhancements
 
 The Relationship Visualizer received the following improvements:
 
@@ -90,7 +88,7 @@ The Relationship Visualizer received the following improvements:
 - Implemented a comprehensive set of **ADO SQL hardening changes**, improving reliability, determinism, and fault‑tolerance across the entire execution pipeline. [(#11, closed)](https://github.com/jjlong150/ExcelToGraphviz/issues/11)  
 - Expanded the SQL log‑to‑file feature to include **environment documentation**, improving diagnostics and reproducibility. [(#12, closed)](https://github.com/jjlong150/ExcelToGraphviz/issues/12)
 
-**Defect Fixes**
+### Defect Fixes
 
 The following defects were corrected:
 
@@ -99,27 +97,28 @@ The following defects were corrected:
 
   The fix correctly groups by **CLUSTER**, but this correction is **not backward‑compatible** and may alter the structure of existing graphs that relied on the prior (incorrect) behavior. You will have to modify cluster-oriented SQL statements if you use this feature.
 
-## Version 9.1.0 - January 7, 2026
+## Version 9.1.0
 
-**Font List Improvements**  
-Revised the logic used to build the font list in the Style Designer tab.
-- Expanded the available font choices by removing the prefix/suffix‑based screening logic for filtering out fonts.
-- Added an **excluded fonts** list on the `lists` worksheet containing fonts that testing shows will fall back to a default font in Graphviz.
-- Cross‑checked the expanded font list against the excluded‑fonts list to produce a clean set of fonts that Graphviz can reliably render.
-- Made enhancements to remove duplicates and alphabetize the final font list.
+### Font Name Improvements
 
-**Font Image Improvements**  
-Updated the Style Designer tab to use a two‑image preview approach.  
-- The ribbon continues to display the legacy (backward‑compatible) **`A`** icon beside the font name.  
-- Font gallery controls now shows a wider 14pt preview image using the characters **`Aa Bb Cc`** to provide a clearer representation of each font.
+Revised the logic used to build the font list in the **Style Designer**.
 
-**Font Code Improvements**  
+- Expanded the available font choices by removing the earlier prefix/suffix‑based screening logic that filtered out fonts.
+- Added an **excluded fonts** list on the `lists` worksheet. Testing shows these fonts fall back to a default font in Graphviz, so they are filtered out of the available font list.
+- Cross‑checked the retrieved font list against the excluded‑fonts list to produce a clean set of fonts that Graphviz can reliably render.
+- Added logic to **remove duplicates** and **alphabetize** the final font list.
+
 Restructured the Windows and macOS code paths so both platforms now share the same filtering, deduplication, and sorting pipeline.  
 - macOS still relies on the font list stored in the `lists` worksheet, but the code is now structured to allow a native macOS font‑enumeration solution to be added cleanly when available.
 
-## Version 9.0.0 - December 22, 2025
+Updated the **Style Designer** ribbon tab to use a two‑image preview approach.  
+- The ribbon continues to display the legacy (backward‑compatible) `A` icon beside the font name.  
+- The font gallery now shows a wider 14pt preview image using the characters `Aa Bb Cc` to provide a clearer representation of each font.
 
-**UI Visual Refresh**  
+## Version 9.0.0
+
+### UI Visual Refresh
+
 Replaced all [built-in Office Ribbon icons](https://spreadsheet1.com/microsoft-office-excel-ribbon-imagemso-icons-gallery.html) with [Google Material icons](https://fonts.google.com/icons).  
 - Modernized the overall appearance  
 - Improved visual clarity and contrast  
@@ -127,19 +126,16 @@ Replaced all [built-in Office Ribbon icons](https://spreadsheet1.com/microsoft-o
 
 **Breaking** - Several dropdown lists were redesigned as individual buttons that behave like radio buttons.
 - Graphviz tab: **Zoom**, **Layout**, **Splines**  
-- Style Designer tab: **Scale**, **Image Position**  
+- Style Designer: **Scale**, **Image Position**  
 - Simplifies interaction and reduces misclicks  
 - Enables dedicated tooltip text for every layout, spline mode, and image-position option  
 
 Overall, the refresh makes the Ribbon cleaner and easier to scan at a glance.
 
----
-
-**New Features**
+### New Features
 
 **Silent Mode / Message Routing**  
 You can now disable message boxes entirely for "run silent" operation, as requested in this [issue](https://github.com/jjlong150/ExcelToGraphviz/issues/3).  
-
 Errors and notifications can be routed to:  
 - Message boxes  
 - The Excel status bar  
@@ -149,14 +145,13 @@ These options are controlled via enablement buttons on the **Console** tab, givi
 
 **Support for Graphviz 14.1.0 `radius` Attribute**  
 Graphviz introduced a new `radius` attribute for rounding corners on orthogonal edges.  
-- The `Edge` mode of the **Style Designer** tab now includes a Gallery control that visually previews radius values from 0 to 20, making it easy to choose the desired corner roundness.
-- The `SVG` post-processing Javascript code was updated to animate the polyline elements used to display the rounded corners. 
+The `Edge` mode of the **Style Designer** tab now includes a Gallery control that visually previews radius values from 0 to 20, making it easy to choose the desired corner roundness.
 
 ---
 
-**Improvements**
+### Improvements
 
-**Breaking** - Image Zoom redesigned  
+**Breaking** - Image Zoom redesigned
 - Replaced fixed zoom levels (25%, 50%, 75%, 100%)  
 - New range: **5%-150%** in **5% increments**  
 - Controlled via **Zoom In** and **Zoom Out** buttons  
@@ -175,14 +170,13 @@ Resolved all Excel "Accessibility" warnings to ensure a cleaner, more compliant 
 - Improved maintainability and reduced risk of typos  
 - Strengthened the error-reporting pipeline with locale-aware timestamps, normalized messages, and safer numeric parsing  
 
-
-## Version 8.0.1 - August 28, 2025
-
+## Version 8.0.1
+### Fixes
 - A previous update resolving image deletion on low-memory systems inadvertently disabled SVG removal. This regression has now been corrected. 
 
-## Version 8.0.0 - August 27, 2025
+## Version 8.0.0
 
-**Style Designer**
+### Style Designer
 
 Replaced dropdowns with Ribbon galleries; visual grid-style controls that display selectable items like colors or images for faster, more intuitive style selection.
 - Color galleries now display entire color schemes in a compact, high-speed format.
@@ -216,9 +210,7 @@ Improved image path handling
 Fixed image deletion issue on low-memory systems
 - Addressed a bug on 32-bit Atom CPUs with 2GB RAM by switching to a more resource-efficient method for deleting preview images.
 
----
-
-**Styles**
+### Styles
 
 One-click style restoration in Style Designer
 - Select a row on the `styles` worksheet containing a `node`, `edge`, or `cluster` format string, then click the `[...]` button to instantly reset `style designer` to match the saved format.
@@ -226,9 +218,7 @@ One-click style restoration in Style Designer
 Auto-refresh preview
 - Saving a style automatically updates the preview image on the `styles` worksheet.
 
----
-
-**SQL**
+### SQL
 
 Connection pooling added 
 - Implemented in response to a March 2025 Office update that causes ADO connections to take over 12 seconds (previously under 4 milliseconds). See: [Excel ADO connection issue in recent Office 365 update](https://learn.microsoft.com/en-us/answers/questions/5443040/excel-ado-connection-issue-in-recent-office-365-up?forum=msoffice-all&referrer=answers)  
@@ -266,73 +256,63 @@ New SQL extensions for Graphviz automation
   - Item = `>`
   - Label = `{rank="same"; "A"; "B"; "C"; "D";}`
 
----
-
-**SVG**
-
+### SVG
 - Added `[...]` button to Find and Replace cells to open the SVG editor form.
 - Updated animation logic in one of the post-processing options to accept `1` or `0` for toggling inclusion of zoom buttons on clusters.
 
----
+### Miscellaneous
 
-**macOS compatibility**
+macOS compatibility
 - Fixed Excel version check to compare major and minor versions numerically, resolving a string-compare bug introduced when Excel reached three digits in version 16.100.
 - Revised the `ExcelToGraphviz.applescript` script version check to use integers instead of strings
   - An alert triggers if installed script version is below 3.
   - The new RGB color controls are hidden when an outdated script is detected, preventing users from interacting with buttons that would otherwise fail silently.
 
----
-
-**Code Optimizations**
+Optimizations
 - Introduced new constants throughout the codebase to improve clarity and maintainability.
 - Further optimized string concatenation routines for better performance.
 
----
-
-**JSON Import/Export**
+JSON Import/Export
 - Updated to support exporting and restoring the new SQL settings.
 
-## Version 7.2.02 - June 19, 2025
 
-- Minor adjustment to comply with Graphviz ID naming rules: wrap ID values in quotes if they don't start with a letter or underscore.
+## Version 7.2.02
+### Fixes
+- Enforce Graphviz ID naming rules by wrapping ID values in quotes when they do not begin with a letter or underscore.
 
-## Version 7.2.01 - April 19, 2025
-
+## Version 7.2.01
+### Fixes
 - Resolved [Output Directory macro 'Cannot run' #2](https://github.com/jjlong150/ExcelToGraphviz/issues/2) defect.
 
-## Version 7.2.0 - March 14, 2025
+## Version 7.2.0
+
+### Enhancements
 
 `sql` Worksheet
 
-- Added support for recursive SQL queries, enabling the creation of hierarchies such as organization charts and connected data paths.
+Added support for recursive SQL queries, enabling the creation of hierarchies such as organization charts and connected data paths.
 
-  - A candidate dataset should include a pair of related columns that enable hierarchical traversal. For example:
-    - The columns `employee id` and `manager id` in a business organization contain the relationship between an employee, and the manager they report to. 
-    - The columns `station` and `next station` in a subway map contain the point-to-point destinations of subway stations on a given subway line. 
+- A candidate dataset should include a pair of related columns that enable hierarchical traversal. For example:
+  - The columns `employee id` and `manager id` in a business organization contain the relationship between an employee, and the manager they report to. 
+  - The columns `station` and `next station` in a subway map contain the point-to-point destinations of subway stations on a given subway line. 
 
-  - New SQL conventions provide the ability to:
-    - *Anchor the Base Case* - where you define the starting point (such as the top-level parent in a hierarchy).
-    - *Define the Recursive Member* - where you specify how to recursively connect results to construct subsequent levels.
+- New SQL conventions provide the ability to:
+  - *Anchor the Base Case* - where you define the starting point (such as the top-level parent in a hierarchy).
+  - *Define the Recursive Member* - where you specify how to recursively connect results to construct subsequent levels.
 
-  - Explore the updated sample workbooks for practical examples:
-    - `12 - Using SQL - Trees` - Shows how to traverse any node-to-node structure by starting at a node and iterating through either its connected predecessor nodes, or connected successor nodes.
-    - `13 - Using SQL - Organization Charts` - Shows how to build a complete organization chart, or extract a branch of an organization chart.
+- Explore the updated sample workbooks for practical examples:
+  - `12 - Using SQL - Trees` - Shows how to traverse any node-to-node structure by starting at a node and iterating through either its connected predecessor nodes, or connected successor nodes.
+  - `13 - Using SQL - Organization Charts` - Shows how to build a complete organization chart, or extract a branch of an organization chart.
 
-`settings` Worksheet
-
-- Four new values have been added to the `settings` worksheet under the `sql` tab, as additional keywords for recursive SQL queries. These values provide flexibility, allowing the keywords to be customized for use in non-English languages.
-
-`style designer` Worksheet
+### Fixes
 - Resolved a screen flicker issue on the `style designer` worksheet that occurred during the initial creation of color images for ribbon dropdown lists.
+- Incorporated enhancements in `ExecuteAndCapture` code based on recommendations from *RubberduckVBA* code inspections.
 
-`ExecuteAndCapture` Module
-- Conducted *RubberduckVBA* code inspections across the entire codebase. Implemented improvements to the `ExecuteAndCapture` module based on its recommendations.
-
-## Version 7.1.0 - February 14, 2025
+## Version 7.1.0
 
 Fixed a bug that caused Excel to freeze when Graphviz wrote more than 4096 bytes of message output:
 
-- The Relationship Visualizer spreadsheet uses the `ExecuteAndCapture` routine to run Graphviz's `dot` command and capture any `dot` output messages.
+- The *Relationship Visualizer* spreadsheet uses the `ExecuteAndCapture` routine to run Graphviz's `dot` command and capture any `dot` output messages.
 - `ExecuteAndCapture` reads messages via an interprocess pipe with a fixed size of 4096 bytes.
 - `dot` paused after writing 4096 bytes of messages, waiting for `ExecuteAndCapture` to read and clear the data from the pipe before resuming.
 - `ExecuteAndCapture` was paused, waiting for `dot` to finish before reading any data from the pipe.
@@ -343,9 +323,10 @@ This resulted in a deadlock. To eliminate the deadlock:
 - `ExecuteAndCapture` periodically checks the pipe for data. Any data found is read and removed from the pipe.
 - `dot` is now able to pause and resume as needed until graph generation is complete and all messages are captured.
 
-## Version 7.0.0 - December 4, 2024
 
-**Worksheet Changes**
+## Version 7.0.0
+
+### Worksheet Changes
 
 `console` Worksheet
 - Added a **new** `console` worksheet which displays the Graphviz `dot` command's error & diagnostic messages.
@@ -407,9 +388,7 @@ This resulted in a deadlock. To eliminate the deadlock:
 - Provided alternate styling for SVG animation more akin to macOS controls. This version is commented-out by default. You can choose which to use by commenting-out one or the other.
 - Added `Copy to Clipboard`, `Graph to File` and `All views to File` buttons on SVG tab. `Copy to Clipboard` is not available on macOS as the clipboard code is Windows OS-specific.
 
----
-
-**Ribbon Tab Changes**
+### Ribbon Tab Changes
 
 `Launchpad` Ribbon Tab
 - Consolidated all the buttons for showing/hiding worksheets onto a **new** `Launchpad` ribbon tab.
@@ -427,9 +406,7 @@ This resulted in a deadlock. To eliminate the deadlock:
 - Added `Include Image Path` as a `Graph` check option so the image path can be omitted from `dot` source when images are not being used.
 - Eased restrictions on when automatic drawing can occur so that ribbon tab changes can be observed in either the `data` or `graph` worksheet.
 
----
-
-**Miscellaneous Changes**
+### Miscellaneous Changes
 
 - Windows OS: Replaced the Open Source `ShellAndWait()` function used to run the Graphviz `dot` command with a new Open Source function `ExecuteAndCapture()` which can run the Graphviz `dot` command and return the messages which `dot` writes to the standard output, and standard error message pipes. These messages are then displayed on the new `console` worksheet. A tradeoff of this code replacement is that the timeout capabilities which `ShellAndWait()` provided are not present in `ExecuteAndCapture`.
 
@@ -451,23 +428,23 @@ This resulted in a deadlock. To eliminate the deadlock:
 
 - Accepted **RubberDuckVBA** suggestions to improve code quality.
 
-## Version 6.1.01 - October 10, 2024
+## Version 6.1.01
 
 Style Designer enhanced to include `Mrecord` in the list of shapes. 
 
-## Version 6.1.00 - August 13, 2023
+## Version 6.1.00
 
 Style Designer enhanced to show a progress indicator when loading large dropdown lists. 
 
-## Version 6.0.03 - June 26, 2023
+## Version 6.0.03
 
 `Style Designer` ribbon tab was enhanced to not load names and images of colors and fonts for hidden dropdown lists. This change significantly reduced the time to load the tab from ~15 seconds to ~8 seconds.
 
-## Version 6.0.02 - June 23, 2023
+## Version 6.0.02
 
 Swapped the original SVG postprocessing find/replace scripting with a new contribution which adds animated edge highlighting, and cluster zoom in/zoom out capability. 
 
-## Version 6.0.01 - May 19, 2023
+## Version 6.0.01
 
 `Style Designer` ribbon was enhanced to cache references to color and font images as they get loaded from the file system. 
 
@@ -475,7 +452,7 @@ For Graphviz's default `X11` color scheme, this change eliminates over 4,000 fil
 
 The tab still takes about 15 seconds to load, but 15 is better than 17. Other color schemes load faster as well. 
 
-## Version 6.0.00 - May 14, 2023
+## Version 6.0.00
 
 New Online Help
 
@@ -534,7 +511,8 @@ Sample Workbook Updates
 
 - The workbooks and JSON files in the "samples" directory were updated to version 6.0.00.
 
-## Version 5.8.00 - December 22, 2022
+## Version 5.8.00
+
 
 Solid-fill Gradients for Nodes and Clusters 
 - A new `Weight` percentage for the primary fill color has been added to the Style Designer which allows for the creation of solid-fill gradients. 
@@ -553,16 +531,16 @@ Sample Workbooks
 File Size
 - Redundant images created by the Office RibbonX Editor tool have been removed, which reduced the Excel workbook size by over 1MB.
 
-## Version 5.7.01 - October 23, 2022
+## Version 5.7.01
 
 Polish language translation originally created using the http://www.deepl.com free translation service have been reviewed and edited by Polish-speaking contributor Arek Czak.
 
 Style Designer color dropdown lists now show the default color Graphviz will use when no color has been chosen as the first value in the list.
 
-## Version 5.7.00 - September 7, 2022
+## Version 5.7.00
 Added Polish language translation. The translation was created using the http://www.deepl.com free translation service (and may have errors). 
 
-## Version 5.6.00 - August 14, 2022
+## Version 5.6.00
 
 Fixed a small bug where the "outputorder" attribute was being emitted as "orderoutput".
 
@@ -570,15 +548,15 @@ Added `overlap`, `mode`, `smoothing`, `dim`, `dimen` attributes to the Algorithm
 
 Continued to purge performance slowing string operations, helping to improve performance on older machines.
 
-## Version 5.5.01 - July 8, 2022
+## Version 5.5.01
 
 Made several code performance optimizations to the `getItemColor` and `getItemLabel` callbacks in the Style Designer ribbon menu which greatly reduce the time it takes to LOAD the lists of color choices names and preview images. 
 
 Made changes which reduce the time it takes to CREATE the color preview images which are displayed in the color choice dropdown lists.
 
-## Version 5.5.00 - July 4, 2022
+## Version 5.5.00
 
-**Multiple Language Support**
+### Multiple Language Support
 
 Introduced a **"Language"** dropdown to the Graphviz tab providing a capability to toggle different languages. 
 
@@ -605,13 +583,13 @@ Items not translated include:
 Hidden worksheets contain the language translations. You can edit these worksheets to make corrections. Simply unhide the appropriate worksheet which starts with `locale_`, correct the text, save, and close the workbook, and reopen the workbook.
 
 
-**Metric Measurement Support**
+### Metric Measurement Support
 
 Added metric units for height and width to the Style Designer. 
 
 A checkbox lets you toggle the lists between inch units (which Graphviz uses) and millimeters (which the Style Designer will convert to inches)
 
-**Font Preview Images**
+### Font Preview Images
 
 Added font preview images to the Style Designer Font drop-down lists. 
 

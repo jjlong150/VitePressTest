@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+markdownStyles: true
 
 hero:
   name: "Excel to Graphviz"
@@ -58,24 +59,3 @@ features:
     details: Exchange workbook data in a JSON format suitable for version control
     link: /exchange/
 ---
-
-### Create Stunning Relationship Diagrams from Spreadsheets
-
-The **Relationship Visualizer** spreadsheet transforms your Excel tables into clear, professional **Graphviz diagrams** in seconds. Say goodbye to manual drawing tools — simply enter your data as rows (e.g., "A is related to B"), and watch graphs appear automatically.
-
-### Why Users Love It
-
-Whether you're mapping data flows, org charts, timelines, ERDs, or circuits, this tool makes complex relationships instantly understandable.
-
-|  | |
-| :--- |--|
-| **Draws as you type** | Live Graphviz rendering as data changes |
-| **Powerful styling** | Colors, shapes, fonts, arrows, reusable styles |
-| **Advanced features** | SQL queries, SVG animation, DOT preview, JSON exchange |
-| **Cross-platform** |  Works on 🪟 Windows and 🍎 macOS |
-| **Sleek UI** | Custom Excel ribbon tabs across all worksheets |
-| **Multilingual** | English, French, German, Italian, Polish |
-| **Open Source** | MIT License |
-| **Absolutely Free** | No cost to use; ☕[BMC donations](https://buymeacoffee.com/exceltographviz) appreciated |
-| ![](/sourceforge-community-choice.png)[![Download Excel to Graphviz](https://img.shields.io/sourceforge/dt/relationship-visualizer.svg)](https://sourceforge.net/projects/relationship-visualizer/files/latest/download) |  SourceForge Community Choice award · 10,000+ downloads |
-| | |
